@@ -1,6 +1,6 @@
 # Single Threaded C++ Echo Server
 
-Single threaded C++ Echo Server. Accepts a single client and exits upon client side connection terminating.
+Single threaded C++ TCP Echo Server. Accepts a single client and exits upon client side connection terminating.
 
 ## Installation
 

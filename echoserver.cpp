@@ -126,6 +126,7 @@ int main(int argc, char* argv[]) {
       std::cout << "[ERR]: ERROR SENDING DATA" << std::endl;
       break;
     }
+    std::cout << "[INFO]: DATA RECEIVED" << "\n" << buffer << std::endl;
   }
   close(ic_sock);
   close(sockfd);
